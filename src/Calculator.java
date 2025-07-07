@@ -35,7 +35,7 @@ public class Calculator {
                 resultado = num_one % num_two;
                 break;
             default:
-                System.out.println("Els operador o los valores introducidos no son correctos");
+                System.out.println("El operador o los valores introducidos no son correctos");
                 operacionValida = false;
         }
         if (operacionValida) {
